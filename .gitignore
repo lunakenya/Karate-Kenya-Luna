@@ -1,0 +1,30 @@
+# =============================================================================
+# .gitignore — Demoblaze Karate DSL API Tests
+# =============================================================================
+
+# Maven build output (NO subir target/ al repositorio)
+target/
+
+# Logs de ejecución
+*.log
+logs/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.code-workspace
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Variables de entorno locales
+.env
+*.env.local
+
+# Karate reportes temporales (se regeneran con mvn test)
+karate-reports/
