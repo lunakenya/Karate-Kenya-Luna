@@ -89,7 +89,7 @@ karate-main
 ├── pom.xml
 ├── README.md
 ├── readme.txt
-├── conclusiones.txt
+├── CONCLUSIONES.md
 │
 └── src
     └── test
@@ -319,6 +319,7 @@ Uso de tablas de datos para maximizar cobertura.
 ```karate
 Scenario Outline:
 Examples:
+  | read('classpath:common/payloads/login-data.csv') |
 ```
 
 Beneficios:
@@ -388,13 +389,13 @@ Karate genera reportes HTML automáticamente.
 Ubicación:
 
 ```text
-target/karate-reports/
+target/surefire-reports/karate-reports/
 ```
 
 Reporte principal:
 
 ```text
-target/karate-reports/karate-summary.html
+target/surefire-reports/karate-reports/karate-summary.html
 ```
 
 ---
@@ -436,7 +437,7 @@ La solución implementada demuestra:
 Para el análisis completo consulte:
 
 ```text
-conclusiones.txt
+CONCLUSIONES.md
 ```
 
 ---

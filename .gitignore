@@ -3,7 +3,10 @@
 # =============================================================================
 
 # Maven build output (NO subir target/ al repositorio)
-target/
+target/*
+!target/surefire-reports/
+target/surefire-reports/*
+!target/surefire-reports/karate-reports/
 
 # Logs de ejecución
 *.log

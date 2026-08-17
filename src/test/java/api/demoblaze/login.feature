@@ -109,9 +109,6 @@ Feature: Login API - POST /login
     * print '>>> [TC-<row>] User:', resolvedUser, '| Response:', response
 
     Examples:
-      | row | case                       | username                    | password                   | useConfigUser | useConfigPass | expectToken |
-      | 008 | Login valido (config user) | -                           | -                          | true          | true          | true        |
-      | 009 | Password incorrecto        | -                           | WrongPassword_Invalid_999! | true          | false         | false       |
-      | 010 | Usuario inexistente        | usuario_outline_noexist_001 | AnyPassword!               | false         | false         | false       |
+      | read('classpath:common/payloads/login-data.csv') |
 
 
