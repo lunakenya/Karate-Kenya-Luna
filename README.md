@@ -205,7 +205,7 @@ Apache Maven 3.8+
 ## Clonar repositorio
 
 ```bash
-git clone https://github.com/lunakenya/karate.git
+git clone https://github.com/lunakenya/Karate-Kenya-Luna.git
 ```
 
 ```bash
